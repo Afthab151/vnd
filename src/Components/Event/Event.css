@@ -9,8 +9,12 @@
     align-items: center;
     justify-content: space-between;
     font-size: 22px;
-    width: 61%;
+    width: 65%;
     margin-top: 20px;
+}
+
+.card-body {
+    margin-left: 5px;
 }
 
 h1 {
@@ -30,6 +34,7 @@ h1 {
 
 .event_container {
     padding: 70px 70px;
+    /* background-color: aqua; */
 }
 
 
@@ -41,10 +46,12 @@ h1 {
     margin-right: 67px;
     position: relative;
     font-size: 20px;
+
     &::after {
         content: '';
         height: 2px;
-        background-color: rgb(250, 197, 63);;
+        background-color: rgb(250, 197, 63);
+        ;
         position: absolute;
         left: 0;
         right: 0;
@@ -72,13 +79,19 @@ h1 {
 
 .first_card,
 .second_card,
-.third_card,
+.third_card {
+    width: 330px;
+    height: 360px;
+    background-color: #FFFF;
+    border-radius: 12px;
+}
+
 .fourth_card {
     width: 330px;
     height: 360px;
     background-color: #FFFF;
-    padding: 8px;
-    border-radius: 12px;}
+    border-radius: 12px;
+}
 
 .first_card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -115,28 +128,72 @@ h1 {
 }
 
 .select_p1:hover {
-    color: rgb(250, 197, 63);;
+    color: rgb(250, 197, 63);
+    ;
 }
+
 .select_p2:hover {
-    color: rgb(250, 197, 63);;
+    color: rgb(250, 197, 63);
+    ;
 }
+
 .select_p3:hover {
-    color: rgb(250, 197, 63);;
+    color: rgb(250, 197, 63);
+    ;
 }
+
 .select_p4:hover {
-    color: rgb(250, 197, 63);;
+    color: rgb(250, 197, 63);
+    ;
 }
+
 .select_p5:hover {
-    color: rgb(250, 197, 63);;
+    color: rgb(250, 197, 63);
+    ;
 }
 
 @media (max-width:768px) {
-    .event_cards {
-        display: grid;
-        grid-template-columns: 50% 50%;
+
+    .main_container1 {
+        height: 1060px;
     }
 
-    .main_container1{
-        height: 1060px;
+    .event_container {
+        padding: 40px 30px
+    }
+
+    .event_cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .hr1 {
+        width: 85%;
+    }
+
+    .first_card,
+    .second_card,
+    .third_card,
+    .fourth_card {
+        width: 335px;
+    }
+
+    .selection {
+        width: 610px;
+        justify-content: initial;
+    }
+
+    .select_p1,
+    .select_p2,
+    .select_p3,
+    .select_p4,
+    .select_p5 {
+        margin-right: 13px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 30px;
     }
 }

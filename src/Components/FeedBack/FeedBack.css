@@ -71,3 +71,41 @@ h4 {
     position: absolute;
     top: 515px;
 }
+
+@media (max-width:768px) {
+    .feed_container {
+        display: flex;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feedback_container {
+        padding: 40px 30px;
+    }
+
+    .main_container4 {
+        height: 760px;
+        background: linear-gradient(to right,  #ffffff 0%,#ffffff 30%,#e3e3e3 30%,#e3e3e3 100%);
+
+    }
+
+    .feed1,.feed2 {
+        margin: 30px 30px 0 0;
+    }
+
+    .feedback_img {
+        width: 380px;
+        height: 200px;
+    }
+
+    .feed_icon {
+        left: 375px;
+        top: 135px;
+    }
+
+    .feed_arrow {
+        top: 380px;
+    }
+
+}

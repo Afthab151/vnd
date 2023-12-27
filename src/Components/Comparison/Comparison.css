@@ -1,7 +1,7 @@
 .main_container2 {
     max-width: 1600px;
     width: 100%;
-    height: 480px;
+    height: 510px;
     position: relative;
 }
 
@@ -106,4 +106,48 @@
     background-color: #d1a138;
     margin-top: 45px;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .main_container2 {
+        height: 700px;
+    }
+
+    .comparison_container {
+        padding: 40px 30px;
+        width: 708px;
+    }
+
+    .inside_comp1,
+    .inside_comp2 {
+        width: 70%;
+        height: 225px;
+        margin-bottom: 25px;
+    }
+
+    .inner_comparison {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        width: 708px;
+        
+    }
+
+    .select_company,
+    .select_eventc {
+        width: 100%;       
+        margin-bottom: 15px;    
+    }
+
+    .add_img,
+    .select_div {
+        width: 263px;
+        height: auto;
+    }
+
+    .btn {
+        width: 20%;
+        margin-top: 15px;
+    }
+
 }

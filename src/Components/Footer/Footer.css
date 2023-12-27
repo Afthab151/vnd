@@ -47,3 +47,9 @@
     justify-content: center;
     align-items: flex-end;
 }
+
+@media (max-width:768px) {
+    .footer_container {
+        padding: 40px 30px;
+    }
+}
