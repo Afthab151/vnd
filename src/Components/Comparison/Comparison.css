@@ -1,0 +1,109 @@
+.main_container2 {
+    max-width: 1600px;
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+
+.comparison_container {
+    padding: 70px 70px;
+    position: absolute;
+    top: 0;
+}
+
+.comparison_img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.inside_comp1,
+.inside_comp2 {
+    width: 48%;
+    height: 220px;
+    background-color: #FFFF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.inner_comparison {
+    width: 1379px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.inside_add {
+    width: 90%;
+    height: 215px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 3px;
+    object-fit: cover;
+}
+
+
+
+.add_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.select_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.select_company {
+    width: 80%;
+    height: 45px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.select_eventc {
+    width: 80%;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.add_img {
+    width: 50%;
+    height: 100%;
+}
+
+.buttn {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 160px;
+    height: 35px;
+    border-radius: 18px;
+    color: #FFFF;
+    font-size: 15px;
+    border: 1px solid #d1a138;
+    background-color: #d1a138;
+    margin-top: 45px;
+    cursor: pointer;
+}

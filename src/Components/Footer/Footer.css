@@ -1,0 +1,49 @@
+.main_container5 {
+    max-width: 1600px;
+    width: 100%;
+    height:auto;
+}
+
+.footer_container {
+    height: 80%;
+    padding: 70px 70px;
+    background-color: #f6f6f6;
+}
+
+.footp1b {
+    font-weight: bold;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hr2 {
+    margin: 10px 0;
+}
+
+.copy_icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.foot4 {
+    display: flex;
+}
+
+.foot3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}

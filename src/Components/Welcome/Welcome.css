@@ -1,0 +1,318 @@
+.main_container {
+  max-width: 1600px;
+  width: 100%;
+  height: 680px;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_img {
+  width: 145px;
+  height: 145px;
+}
+
+.wel_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 730px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 260px;
+  color: #FFFF;
+}
+
+.user_profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFF;
+  margin-top: 35px;
+}
+
+.txt1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.txt2 {
+  font-size: 58px;
+  font-weight: bold;
+}
+
+.select {
+  width: 80%;
+  height: 72px;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 43px;
+}
+
+.outer_select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 35px;
+  flex-direction: column;
+}
+
+.occation,
+.planner {
+  position: relative;
+  width: 340px;
+  height: auto;
+  border-right: 1px solid grey;
+  margin-left: 27px;
+}
+
+.date {
+  position: relative;
+  width: 350px;
+  height: auto;
+  margin-left: 27px;
+}
+
+.welcome_container {
+  height: auto;
+  padding: 40px 70px 0;
+  position: absolute;
+  top: 0;
+  width: 90%;
+}
+
+.inside_wel1 {
+  width: 100%;
+  height: auto;
+}
+
+.event {
+  display: flex;
+}
+
+.downicon {
+  width: 16px;
+  height: 16px;
+}
+
+.para1 {
+  font-weight: bold;
+  color: grey;
+}
+
+.para2 {
+  color: grey;
+  font-size: 14px;
+}
+
+.userp1 {
+  color: #FFFF;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.search {
+  background-color: #d1a138;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.select_event {
+  width: 67%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.wed_img,
+.house_img,
+.cat_img,
+.stage_img,
+.birth_img {
+  width: 50px;
+  height: 50px;
+}
+
+.wedding,
+.birthday,
+.catering,
+.stage,
+.house {
+  flex-direction: column;
+  width: 107px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wedimg_div,
+.stageimg_div,
+.birthimg_div,
+.catimg_div,
+.houseimg_div {
+  border-radius: 50px;
+  background-color: rgba(128, 128, 128, 0.5);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wp1 {
+  margin-top: 16px;
+  font-size: 15px;
+  color: #FFFF
+}
+
+.avatar {
+  margin: 0 5px;
+}
+
+.avatar_img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.contact {
+  background-color: #d1a138;
+  border: 1px solid #d1a138;
+  border-radius: 20px;
+  width: 110px;
+  height: 25px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.contact_label {
+  padding-top: 2px;
+}
+
+.arrow_down,
+.arrow_down1 {
+  position: absolute;
+  left: 280px;
+  top: 15px;
+  width: 24px;
+}
+
+.calender {
+  position: absolute;
+  width: 18px;
+  top: 16px;
+  left: 255px;
+}
+
+.searchicon {
+  width: 24px;
+  height: 24px;
+}
+
+.icon1 {
+  margin: 4px 0 0 3px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .menu {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+.main_container {
+  width: 100%;
+  height: 730px;
+}
+
+.welcome_container {
+  width: 82%;
+}
+
+.header {
+  justify-content: space-between;
+  width: 80%;
+}
+
+.wel_img {
+  width: 100%;
+  height: 730px;
+  object-fit: cover;
+}
+
+  .txt {
+    align-items: flex-start;
+  }
+
+  .occation,
+  .planner,
+  .date {
+    width: 100%;
+    margin: 0;
+    border: none;
+    text-align: center;
+  }
+
+  .select_event {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .menu {
+    font-size: 16px;
+  }
+
+  .logo_img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .txt1 {
+    font-size: 24px;
+  }
+
+  .txt2 {
+    font-size: 40px;
+  }
+
+  .select {
+    width: 90%;
+    height: 60px;
+    margin: 15px auto;
+  }
+}
