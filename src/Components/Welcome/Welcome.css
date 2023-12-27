@@ -1,0 +1,355 @@
+
+.main_container {
+    width: 100%;
+    height: 85vh;
+    background-color: gray;
+    max-width: 1600px;
+}
+
+.first_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.inner_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.back_img1 {
+    width: 100%;
+    height: 85vh;
+    object-fit: fill;
+
+}
+
+.inner_container1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+
+}
+
+.panel {
+    width: 950px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.logo {
+    margin-right: 50px;
+}
+
+.contactus {
+    border: 1px solid #d1a138;
+    border-radius: 20px;
+    width: 145px;
+    text-align: center;
+    background-color: #d1a138;
+
+
+}
+
+.account {
+    margin-left: 330px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+
+
+}
+
+.account_image {
+    width: 25px;
+    height: 26px;
+    margin-left: 5px;
+}
+
+.account_chevron {
+    width: 15px;
+    height: 10px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.text_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+    color: white;
+
+}
+
+.text1 {
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 0px;
+
+}
+
+.text2 {
+    font-size: 68px;
+    font-weight: 700;
+margin-top: 0px;
+}
+
+.event_details {
+    border: 1px solid white;
+    border-radius: 50px;
+    /* margin-top: 60px; */
+    width: 80%;
+    height: 72px;
+    background-color: white;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event_details2 {
+    display: flex;
+    align-items: center;
+    /* width: 1130px;
+
+    margin-top: 7px; */
+    font-size: 15px;
+    /* padding: 5px;
+    justify-content: space-between; */
+
+}
+
+.image1 {
+    width: 140px;
+    height: 130px;
+}
+
+.image2 {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.image3 {
+    width: 16px;
+    position: absolute;
+    left: 300px;
+    bottom: 0px;
+
+}
+
+.occation,.event_planner {
+    display: flex;
+    flex-direction: column;
+    
+    width: 360px;
+
+    border-right: 0.5px solid #969695;
+    position: relative;
+    margin-left: 27px;
+
+
+
+
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.image4 {
+    width: 16px;
+    position: absolute;
+    left: 300px;
+    bottom: 0px;
+
+}
+.image5 {
+    width: 16px;
+    position: absolute;
+    left: 300px;
+    bottom: 2px;
+}
+
+/* .event_planner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    gap: 5px;
+    width: 260px;
+    border-right: 0.5px solid #969695;
+    position: relative;
+
+
+} */
+
+.date {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    
+    position: relative;
+   
+    height: auto;
+    margin-left: 27px;
+
+}
+.date_search{
+    width: 25px;
+}
+
+.all_events {
+    width: 765px;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.search_icon {
+    margin-left: 50px;
+    border: 1px solid #d1a138;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1a138;
+}
+
+.all_events {
+    margin-top: 32px;
+    width:70%;
+
+}
+
+.wedding,
+.birthady,
+.stage_decore,
+.catering,
+.house_warming {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wedd_imagediv {
+
+    width: 70px;
+    height: 70px;
+    padding-left: 2px;
+   background-color: rgba(128, 128, 128, 0.5);
+    border: 1px saddlebrown;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wedding_image {
+    width: 50px;
+    height: 50px;
+}
+
+.wedding_l,
+.birthday_l,
+.stage_decore_l,
+.catering_l,
+.house_warming_l {
+    margin-top: 4px;
+
+
+}
+
+
+
+
+
+/* @media (max-width: 768px) {
+    .logo_section {
+        width: 768px;
+    }
+    .panel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .account {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-right: 20px;
+
+    }
+
+    .text_area {
+        margin-top: 50px;
+    }
+    .text2{
+        font-size: 45px;
+    }
+
+    .event_details {
+        width: 85%;
+    }
+
+    .occation, .event_planner, .date {
+        width: 100%;
+        border-right: none;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .all_events {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search_icon {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .wedding, .birthady, .stage_decore, .catering, .house_warming {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .panel {
+        font-size: 18px;
+    }
+
+    .text1 {
+        font-size: 24px;
+    }
+
+    .text2 {
+        font-size: 40px;
+    }
+} */

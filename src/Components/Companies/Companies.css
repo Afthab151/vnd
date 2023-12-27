@@ -1,0 +1,222 @@
+.main_container_comp {
+    width: 100%;
+    /* height: 100vh; */
+    max-width: 1800px;
+
+}
+
+.companies {
+    height: 100vh;
+    margin: 40px 29px 40px 80px;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+ 
+
+}
+.company_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.firstimage_c {
+    width: 400px;
+    height: 400px;
+    /* margin-bottom: 25px; */
+    position: relative;
+   
+
+}
+
+.image1_comp {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-grow: 1;
+
+
+
+
+}
+
+.secondimage_c {
+    width: 400px;
+    height: 400px;
+    position: relative;
+ 
+
+
+}
+
+.image2_comp {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-grow: 1;
+  
+
+
+}
+
+.thirdimage_c {
+    width: 600px;
+    height: 825px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    /* margin-bottom: 25px;
+    margin-right: 25px; */
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.image3_comp {
+    width: 600px;
+    height: 825px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-grow: 1;
+
+
+
+
+}
+
+.first_second {
+    width: 400px;
+    height: 825px;
+    float: left;
+    /* margin-bottom: 25px;
+    margin-right: 25px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+.text1_comp,
+.text2_comp,
+.text3_comp,
+.text4_comp,
+.text5_comp,
+.text6_comp {
+    position: absolute;
+    bottom: 25px;
+    margin-left: 12px;
+
+}
+
+.text1_1,
+.text2_1,
+.text3_1,
+.text4_1,
+.text5_1,
+.text6_1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.text1_2,
+.text2_2,
+.text3_2,
+.text4_2,
+.text5_2,
+.text6_2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+
+
+.fourthimage_c {
+    width: 690px;
+    height: 400px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    /* margin-right: 25px; */
+  
+
+}
+
+.image4_comp {
+    width: 690px;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-grow: 1;
+
+}
+
+
+
+
+
+.fifthimage_c {
+    width: 265px;
+    height: 400px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    
+
+}
+
+.image5_comp {
+    width: 265px;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-grow: 1;
+
+
+}
+
+.fifth_sixth {
+    width: 690px;
+    height: 400px;
+    float: left;
+    display: flex;
+    /* margin-top: 25px; */
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+
+
+.sixthimage_c {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    /* margin-left: 25px; */
+    position: relative;
+
+  
+
+
+}
+
+.image6_comp {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-grow: 1;
+
+}
+.ffs{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 25px;
+}
