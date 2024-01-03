@@ -53,3 +53,18 @@
         padding: 40px 30px;
     }
 }
+
+@media (max-width:480px) {
+    .footp1b {
+        font-size: 10px;
+    }
+
+    .footp1 {
+        font-size: 9px;
+    }
+
+    .foot4 {
+        align-items: center;
+    }
+
+}

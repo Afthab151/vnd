@@ -1,0 +1,122 @@
+.main_container8 {
+    max-width: 1600px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.welcome_container8 {
+    height: auto;
+    padding: 40px 70px;
+    position: absolute;
+    top: 0;
+    width: 90%;
+
+}
+
+.wel_img1 {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.insidewel_content {
+    margin-top: 125px;
+}
+
+.aboutp1 {
+    margin-top: 25px;
+}
+
+.aboutp2 {
+    margin-top: 35px;
+}
+
+.aboutp3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .menu,
+    .user_profile {
+        display: none;
+    }
+
+
+
+    .welcome_container8 {
+        padding: 40px 38px;
+    }
+
+    .responsive_header {
+        display: block;
+        width: 64px;
+        height: 64px;
+    }
+
+    .ham_bttn {
+        height: 64px;
+        border: #FFFF;
+        background: transparent;
+    }
+
+
+    .hamburger {
+        display: block;
+        width: 35px;
+        cursor: pointer;
+        height: 35px;
+        background-color: #FFFF;
+    }
+
+    .sidebar1 {
+        list-style: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 250px;
+        z-index: 999;
+        background-color: black;
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        backdrop-filter: blur(10px);
+    }
+
+    .navbar li {
+        margin-top: 15px;
+        width: 100%;
+        height: 40px;
+        font-size: 21px;
+        font-weight: bold;
+        border-bottom: 1px solid gray;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .navbar a {
+        height: 100%;
+        padding: 0 30px;
+        text-decoration: none;
+        color: #FFFF;
+    }
+
+    .wel_img1 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .welcome_container8 {
+        padding: 25px 17px;
+    }
+}
