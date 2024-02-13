@@ -54,7 +54,7 @@ function AboutUs() {
 
                         </div>
                         <div className='responsive_header' >
-                            <button className='ham_bttn' onClick={() => setShow(!show)}>
+                            <button className='ham_bttn1' onClick={() => setShow(!show)}>
                                 <img className='hamburger_img' src="/Images/icons8-hamburger.svg" alt="" />
                             </button>
                             <div className="responsive_content">

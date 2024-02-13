@@ -192,7 +192,7 @@
     }
 
     .img12 {
-        width: 395px;
+        width: 100%;
         flex-direction: column;
         flex-wrap: nowrap;
         height: auto;
@@ -211,14 +211,14 @@
     }
 
     .imgg3 {
-        width: 394px;
+        width: 100%;
         flex-wrap: nowrap;
         height: auto;
 
     }
 
     .img456 {
-        width: 394px;
+        width: 100%;
         flex-wrap: nowrap;
         flex-direction: column;
         margin-top: 25px;

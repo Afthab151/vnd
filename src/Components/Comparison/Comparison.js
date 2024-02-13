@@ -5,7 +5,7 @@ function Comparison() {
         <div className="main_container2">
             <img className='comparison_img' src="/Images/comp2.avif" alt="" />
             <div className='comparison_container'>
-                <h1>Event Company Comparison</h1>
+                <h1 className='event_heading'>Event Company Comparison</h1>
 
                 <div className="inner_comparison">
                     <div className="inside_comp1">

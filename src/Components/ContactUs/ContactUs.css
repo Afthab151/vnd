@@ -1,0 +1,284 @@
+.main_container9 {
+    max-width: 1600px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.welcome_container9 {
+    height: auto;
+    padding: 40px 70px;
+    position: absolute;
+    top: 0;
+    width: 90%;
+
+}
+
+.txt9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFF;
+    margin-top: 20px;
+}
+
+.inside_contact {
+    height: auto;
+    padding: 75px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inside_form {
+    width: 623px;
+    height: auto;
+}
+
+.inside_form2 {
+    width: 623px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_controls {
+    margin-top: 38px;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'] {
+    width: 610px;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border-color: #e3e3e3;
+    border-radius: 5px;
+    border: 2px solid #e3e3e3;
+    padding-left: 10px;
+}
+
+input[type='submit'] {
+    background-color: #d1a138;
+    border: 1px solid #d1a138;
+    color: #FFFF;
+    width: 140px;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.label1,
+.label2,
+.label3,
+.label4,
+.label5 {
+    font-size: 14px;
+}
+
+textarea {
+    margin-top: 10px;
+    border-color: #e3e3e3;
+    border-radius: 5px;
+    border: 2px solid #e3e3e3;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 610px;
+    height: 155px;
+}
+
+.abt_btn {
+    width: 100%;
+    margin-top: 27px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.about_img {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 10px;
+    top: 13px;
+}
+
+.para91 {
+    font-size: 47px;
+    font-weight: bold;
+}
+
+.para92 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.phone_details,
+.email_details {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 113px;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.location_details {
+    display: flex;
+    width: 500px;
+    height: 160px;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.map_details {
+    width: 500px;
+    height: 210px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.phone_img,
+.email_img {
+    width: 70px;
+    height: 70px;
+    background-color: #d1a138;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.loc_img {
+    width: 70px;
+    height: 70px;
+    background-color: #d1a138;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.map_img {
+    margin: 5px;
+}
+
+.map_img1 {
+    object-fit: cover;
+    width: 490px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.inside_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 56px;
+}
+
+.inside_txt1 {
+    margin-top: 25px;
+}
+
+.details_img {
+    width: 45px;
+    height: 45px;
+}
+
+.inside_p1 {
+    color: grey;
+}
+
+.inside_p2 {
+    font-weight: bold;
+}
+
+.inside_p2l {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.inside_p3l {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .inside_contact {
+        flex-direction: column;
+    }
+
+    .welcome_container9 {
+        padding: 40px 38px;
+    }
+
+    .abt_btn {
+        justify-content: center;
+    }
+
+    input[type='submit'] {
+        width: 170px;
+    }
+
+    .inside_form2 {
+        margin-top: 45px;
+        ;
+    }
+
+    .about_img {
+        right: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome_container9 {
+        padding: 25px 21px;
+    }
+
+    .inside_contact {
+        padding: 25px 21px;
+    }
+
+    .inside_form,
+    .inside_form2 {
+        width: 100%;
+    }
+
+    input[type='text'],
+    input[type='tel'],
+    input[type='email'],
+    textarea {
+        width: 372px;
+    }
+
+    .phone_details,
+    .email_details,
+    .location_details,
+    .map_details {
+        width: 381px;
+    }
+
+    .map_img1 {
+        width: 100%;
+    }
+
+    .para91 {
+        font-size: 28px;
+    }
+
+    .para92 {
+        font-size: 14px;
+    }
+
+    .form_controls {
+        margin-top: 30px;
+    }
+}

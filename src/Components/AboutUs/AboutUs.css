@@ -58,7 +58,7 @@
         height: 64px;
     }
 
-    .ham_bttn {
+    .ham_bttn1 {
         height: 64px;
         border: #FFFF;
         background: transparent;
@@ -118,5 +118,8 @@
 
     .welcome_container8 {
         padding: 25px 17px;
+    }
+    .sidebar1 {
+        width: 185px;
     }
 }

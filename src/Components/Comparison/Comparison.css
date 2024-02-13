@@ -130,13 +130,13 @@
         align-items: center;
         margin-top: 30px;
         width: 708px;
-        
+
     }
 
     .select_company,
     .select_eventc {
-        width: 100%;       
-        margin-bottom: 15px;    
+        width: 100%;
+        margin-bottom: 15px;
     }
 
     .select_div {
@@ -158,6 +158,7 @@
 
 @media (max-width: 480px) {
     .main_container2 {
+        width: 100%;
         height: 630px;
     }
 
@@ -166,7 +167,8 @@
         width: 97%;
     }
 
-    .inside_comp1, .inside_comp2 {
+    .inside_comp1,
+    .inside_comp2 {
         width: 100%;
         height: 225px;
         margin-bottom: 15px;
@@ -187,8 +189,8 @@
     }
 
     .select_div {
-        width: 100%; 
-        margin-right: 5px; 
+        width: 100%;
+        margin-right: 5px;
     }
 
     .add_img {
@@ -197,6 +199,11 @@
 
     .btn {
         width: 40%;
-        margin-top: 10px; 
+        margin-top: 10px;
+    }
+
+    .event_heading {
+        font-size: 24px;
+        margin-left: 12px;
     }
 }

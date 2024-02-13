@@ -432,11 +432,11 @@
   }
 
   .para1 {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .para2 {
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .arrow_down {
@@ -483,5 +483,25 @@
   .navbar a {
     font-size: 16px;
   }
+
+  .occation,
+  .planner {
+    border-right: none;
+  }
+
+  .arrow_down1,.arrow_down {
+    left: 75px;
+    top: 8px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .calender {
+    left: 65px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+  }
+
   
 }

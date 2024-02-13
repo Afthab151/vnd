@@ -192,7 +192,7 @@ h1 {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 24px;
     }
 }
 
@@ -238,7 +238,7 @@ h1 {
     .second_card,
     .third_card,
     .fourth_card {
-        width: 395px;
+        width: 100%;
         
     }
 
